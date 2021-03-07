@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Efeito de bolhas em plano de fundo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<section class="container"></section>
+
+	<script type="text/javascript">
+		//For gerando loop do elemento 'span'
+		for (let i = 1; i <= 2800; i++) { 
+			let box = document.createElement('span');
+			document.querySelector('.container').
+			appendChild(box);
+		}
+	</script>
+
+</body>
+</html>
